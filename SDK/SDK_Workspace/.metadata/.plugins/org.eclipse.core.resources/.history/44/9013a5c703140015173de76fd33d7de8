@@ -1,0 +1,12 @@
+void draw_square(Xuint32 BaseAddress,unsigned char x_crdnt, unsigned char y_crdnt)
+{
+	int j, k;
+	k = x_crdnt;
+	for (j = 0 + 32*y_crdnt; j < 32 + 32*y_crdnt; j++)
+	{
+		VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (j*(640/8) + k  )*4, 0x22222222);
+		VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (j*(640/8) + k+1)*4, 0x21111112);
+		VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (j*(640/8) + k+2)*4, 0x21111112);
+		VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (j*(640/8) + k+3)*4, 0x22222222);
+	}
+}

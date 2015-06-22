@@ -1,0 +1,38 @@
+13:42:25 **** Auto Build of configuration Debug for project Space_invaders ****
+make all 
+Building file: ../src/SI_main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Space_invaders_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/SI_main.d" -MT"src/SI_main.d" -o "src/SI_main.o" "../src/SI_main.c"
+../src/SI_main.c: In function 'main':
+../src/SI_main.c:501:15: warning: unused variable 'k' [-Wunused-variable]
+../src/SI_main.c:501:12: warning: unused variable 'j' [-Wunused-variable]
+../src/SI_main.c:501:9: warning: unused variable 'i' [-Wunused-variable]
+Finished building: ../src/SI_main.c
+ 
+Building target: Space_invaders.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Space_invaders_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Space_invaders.elf"  ./src/SI_main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Space_invaders.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size Space_invaders.elf  |tee "Space_invaders.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3042	    308	   2090	   5440	   1540	Space_invaders.elf
+Finished building: Space_invaders.elf.size
+ 
+Invoking: Xilinx ELF Check
+elfcheck Space_invaders.elf -hw ../../basic_system_hw_platform/system.xml -pe microblaze_0  |tee "Space_invaders.elf.elfcheck"
+elfcheck
+Xilinx EDK 14.6 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../basic_system_hw_platform/system.xml -pe
+microblaze_0 Space_invaders.elf 
+
+ELF file	: Space_invaders.elf
+elfcheck passed.
+Finished building: Space_invaders.elf.elfcheck
+ 
+
+13:42:27 Build Finished (took 1s.794ms)
+

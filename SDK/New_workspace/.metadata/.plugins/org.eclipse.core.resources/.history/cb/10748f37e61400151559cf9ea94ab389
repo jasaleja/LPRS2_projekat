@@ -1,0 +1,34 @@
+/*
+ * SI_globals.h
+ *
+ *  Created on: 16.06.2015.
+ *      Author: student
+ */
+
+#ifndef SI_GLOBALS_H_
+#define SI_GLOBALS_H_
+
+#include "SI_defines.h"
+
+/* interrupt handler */
+extern XIntc Intc;
+
+extern  Xuint8	spaceship_speed,
+		projectil_speed,
+		spaceship_flag,
+		projectil_flag,
+		input;
+
+extern int counter;
+extern Xuint8 flag_row[INIT_ROWS];
+
+
+
+extern char offsets[INIT_ROWS];
+extern Xuint8 rigth[INIT_ROWS], left[INIT_ROWS];	//variables for changing offsets
+
+extern invader_t invaders[INIT_NUM];		//array of structs invaders
+
+void init_arrays();
+
+#endif /* SI_GLOBALS_H_ */

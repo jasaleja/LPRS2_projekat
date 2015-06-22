@@ -1,0 +1,13 @@
+/*
+ * SI_logic.h
+ *
+ *  Created on: 16.06.2015.
+ *      Author: student
+ */
+
+#ifndef SI_LOGIC_H_
+#define SI_LOGIC_H_
+
+void vga_interrupt_handler(void*);
+
+#endif /* SI_LOGIC_H_ */

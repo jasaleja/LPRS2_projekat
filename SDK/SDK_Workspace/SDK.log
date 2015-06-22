@@ -1,0 +1,266 @@
+14:55:00.904 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Export\hw\system.xml. 
+14:55:01.918 INFO  - The hardware specification for project 'basic_system_hw_platform' is different from C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Export\hw\system.xml. 
+14:55:01.934 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Export\hw\system.xml into \basic_system_hw_platform\system.xml. 
+14:55:01.949 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+14:55:01.949 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+14:55:02.495 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:55:05.506 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+14:55:05.647 INFO  - Updating MSS for Board Support Package Project: hello_world_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: axi_intc_0, driver: intc_v2_06_a.
+ 
+14:55:06.473 INFO  - Updating hardware inferred compiler options for hello_world. 
+14:55:06.473 INFO  - Clearing existing target manager status. 
+15:01:11.788 ERROR - Unable to read in MSS file C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+15:01:11.803 ERROR - Unable to read in MSS file C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+15:01:11.850 WARN  - Unable to determine location of documentation for OS . 
+15:01:11.850 ERROR - Unable to read in MSS file C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+15:01:11.866 ERROR - Unable to read in MSS file C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+15:17:21.316 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/VezbaVGA_Int/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+15:38:45.092 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:41:26.871 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Export\hw\system.xml. 
+15:48:36.802 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Export\hw\system.xml. 
+16:03:25.405 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/VezbaVGA_Int/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+16:10:47.109 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+16:10:47.109 WARN  - Terminating existing sessions on processor microblaze_0 
+16:25:13.930 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/VezbaVGA_Int/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+16:25:52.244 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:28:39.195 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:29:08.649 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:29:47.400 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:38:18.239 WARN  - Terminating existing sessions on processor microblaze_0 
+16:38:23.688 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/VezbaVGA_Int/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+16:38:57.525 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:53:28.638 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:58:37.829 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Export\hw\system.xml. 
+16:58:42.899 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+16:58:45.426 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+16:58:45.426 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+16:59:01.312 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/VezbaVGA_Int/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+17:05:31.905 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/VezbaVGA_Int/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+17:06:20.983 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:07:28.890 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:08:01.261 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+17:08:04.040 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+17:08:04.040 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+13:50:42.045 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Export\hw\system.xml. 
+13:51:57.038 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/VezbaVGA_Int/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+13:53:56.473 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:45:59.619 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Failed to read/write to the cable
+ 
+14:46:56.077 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:47:05.860 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:47:13.583 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:47:28.030 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:47:46.002 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:48:13.366 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:48:35.378 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:48:45.612 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:48:58.233 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:49:23.739 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:49:37.779 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:49:51.820 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:51:07.664 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:51:37.647 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:52:51.746 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:55:01.146 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+14:55:01.146 WARN  - Terminating existing sessions on processor microblaze_0 
+14:57:10.954 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Failed to read/write to the cable
+ 
+14:58:03.249 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+14:58:03.249 ERROR - Timeout occured while waiting to get reply for command "xfpga_isconfigured -cable type xilinx_platformusb port USB21 frequency 6000000" 
+14:58:03.249 ERROR - Checking FPGA configuration failed.. 
+14:58:06.931 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+14:58:06.931 ERROR - Timeout occured while waiting to get reply for command "xfpga_isconfigured -cable type xilinx_platformusb port USB21 frequency 6000000" 
+14:58:06.931 ERROR - Checking FPGA configuration failed.. 
+14:58:09.973 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+14:58:09.973 ERROR - Timeout occured while waiting to get reply for command "xfpga_isconfigured -cable type xilinx_platformusb port USB21 frequency 6000000" 
+14:58:09.973 ERROR - Checking FPGA configuration failed.. 
+14:58:11.673 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+14:58:11.673 ERROR - Timeout occured while waiting to get reply for command "xconnect mb mdm  -cable type xilinx_platformusb port USB21 frequency 6000000 " 
+14:58:11.673 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+15:05:05.150 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:05:06.351 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+15:05:12.295 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:05:13.293 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+15:05:21.780 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:05:22.653 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+15:05:33.495 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:05:34.478 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+15:05:39.813 WARN  - Terminating existing sessions on processor microblaze_0 
+15:05:58.486 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:05:59.796 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+15:06:09.608 WARN  - Terminating existing sessions on processor microblaze_0 
+15:06:35.675 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:07:16.490 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Export\hw\system.xml. 
+15:07:44.479 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/VezbaVGA_Int/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+15:24:08.097 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/VezbaVGA_Int/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+15:24:53.539 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:25:54.878 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:26:53.862 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+15:26:53.862 WARN  - Terminating existing sessions on processor microblaze_0 
+15:37:58.841 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:38:57.452 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:51:10.749 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+15:51:21.017 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/VezbaVGA_Int/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+15:51:50.689 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:59:16.736 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:59:44.660 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:00:20.806 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:36:18.194 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+13:09:41.621 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Export\hw\system.xml. 
+13:09:52.922 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    ERROR:Cse - A reference voltage has not been detected on the ribbon cable interface to the target system ( pin 2 ).  Check that power is applied to the target system and that the ribbon cable is properly seated at both ends.  The status LED on Platform Cable USB will be GREEN if target voltage is in the proper range and applied to the correct pin.
+
+    Failed to Open JTAG Cable
+    Cable target is not powered-on
+ 
+13:10:13.532 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/VezbaVGA_Int/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+13:14:39.113 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+09:45:08.656 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Export\hw\system.xml. 
+13:10:27.652 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\VezbaVGA_Int\SDK\SDK_Export\hw\system.xml. 
+13:13:22.557 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/VezbaVGA_Int/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+13:31:47.492 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:32:45.835 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:30:17.183 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:35:01.104 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:37:43.502 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:40:48.068 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:06:23.270 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:14:29.336 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:14:44.501 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+15:14:44.501 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:55:08.106 INFO  - Processing command line option -hwspec E:\LPRS2\Projekat\SDK\SDK_Export\hw\system.xml. 
+17:55:13.258 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+17:55:59.161 INFO  - Copied contents of E:\LPRS2\Projekat\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+17:55:59.208 INFO  - Copied contents of E:\LPRS2\Projekat\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+17:57:15.820 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Failed to read/write to the cable
+ 
+17:59:32.966 INFO  - FPGA configured successfully with bitstream "E:/LPRS2/Projekat/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+18:03:24.978 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+18:07:27.169 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:29:12.890 INFO  - Processing command line option -hwspec E:\LPRS2\Projekat\SDK\SDK_Export\hw\system.xml. 
+15:35:00.306 INFO  - FPGA configured successfully with bitstream "E:/LPRS2/Projekat/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+15:55:36.330 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:25:47.323 INFO  - Processing command line option -hwspec I:\LPRS2\Projekat\SDK\SDK_Export\hw\system.xml. 
+16:58:32.217 INFO  - Processing command line option -hwspec E:\LPRS2\Projekat\SDK\SDK_Export\hw\system.xml. 
+16:58:38.053 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+17:04:02.319 INFO  - Copied contents of E:\LPRS2\Projekat\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+17:04:02.368 INFO  - Copied contents of E:\LPRS2\Projekat\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+10:27:35.882 INFO  - Processing command line option -hwspec E:\LPRS2\Projekat\SDK\SDK_Export\hw\system.xml. 
+10:27:58.408 INFO  - FPGA configured successfully with bitstream "E:/LPRS2/Projekat/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:29:01.988 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:31:20.652 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system.xml. 
+12:37:35.011 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system.xml. 
+12:38:31.405 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Projekat/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+13:15:07.809 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Projekat/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+13:50:17.173 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:00:40.477 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system.xml. 
+14:00:41.803 INFO  - The hardware specification for project 'basic_system_hw_platform' is different from C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system.xml. 
+14:00:41.835 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system.xml into \basic_system_hw_platform\system.xml. 
+14:00:41.835 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+14:00:41.835 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+14:00:42.225 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:00:43.116 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+14:00:43.974 INFO  - Updating hardware inferred compiler options for hello_world. 
+14:00:43.989 INFO  - Clearing existing target manager status. 
+14:03:06.751 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Projekat/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+14:03:51.599 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Projekat/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+14:46:18.250 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:52:05.535 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system.xml. 
+14:52:10.574 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+14:52:14.179 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+14:52:14.179 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+14:52:23.029 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+14:53:19.976 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Projekat/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+15:00:13.946 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:05:51.846 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system.xml. 
+15:05:52.867 INFO  - The hardware specification for project 'basic_system_hw_platform' is different from C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system.xml. 
+15:05:52.886 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system.xml into \basic_system_hw_platform\system.xml. 
+15:05:52.892 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+15:05:52.894 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+15:05:53.270 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+15:05:54.136 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+15:06:03.836 INFO  - Updating hardware inferred compiler options for hello_world. 
+15:06:03.855 INFO  - Clearing existing target manager status. 
+15:06:19.766 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Projekat/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+15:10:15.429 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:20:03.611 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system.xml. 
+15:20:08.700 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+15:20:09.576 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+15:20:09.576 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+15:20:17.466 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Projekat/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+15:52:29.935 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:39:59.679 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system.xml. 
+12:07:45.348 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Projekat/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+12:18:31.091 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+10:32:12.089 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\Projekat\SDK\SDK_Export\hw\system.xml. 
+10:32:24.598 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+10:33:40.133 INFO  - Project hello_world_bsp was a BSP project. Please update references. 
+10:33:40.133 ERROR - SDK has detected that project hello_world_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 

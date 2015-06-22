@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="C:\Users\student\ra772012\lprs2\Projekat\SDK\New_workspace\Projekat_hw_platform\system.bit" key="Projekat_hw_platform-bitFile"/>
+	<item value="C:\Users\student\ra772012\lprs2\Projekat\SDK\New_workspace\Projekat_hw_platform\system_bd.bmm" key="Projekat_hw_platform-bmmFile"/>
+	<item value="bootloop" key="Projekat_hw_platform-microblaze_0-initElf"/>
+</section>

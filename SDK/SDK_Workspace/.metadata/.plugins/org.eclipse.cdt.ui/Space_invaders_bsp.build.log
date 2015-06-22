@@ -1,0 +1,6 @@
+10:33:48 **** Build of project Space_invaders_bsp ****
+make -k all 
+Finished building libraries
+
+10:33:48 Build Finished (took 155ms)
+

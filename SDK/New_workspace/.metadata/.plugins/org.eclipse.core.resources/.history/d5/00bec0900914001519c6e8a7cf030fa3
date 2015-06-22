@@ -1,0 +1,23 @@
+/*
+ * SI_draw.h
+ *
+ *  Created on: 16.06.2015.
+ *      Author: student
+ */
+
+#ifndef SI_DRAW_H_
+#define SI_DRAW_H_
+
+#include "xbasic_types.h"
+
+
+#define VGA_PERIPH_MEM_mWriteMemory(Address, Data) \
+ 	Xil_Out32(Address, (Xuint32)(Data))
+#define VGA_PERIPH_MEM_mReadMemory(Address) \
+ 	Xil_In32(Address)
+#define GRAPHICS_MEM_OFF 0x2000000
+
+void draw_square(Xuint32, Xuint8, Xuint8);
+
+#endif /* SI_DRAW_H_ */
+

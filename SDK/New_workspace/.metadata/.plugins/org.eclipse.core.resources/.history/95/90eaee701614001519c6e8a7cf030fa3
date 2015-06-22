@@ -1,0 +1,12 @@
+/*
+ * SI_init.c
+ *
+ *  Created on: 16.06.2015.
+ *      Author: student
+ */
+
+void init_interrupt_controller()
+{
+
+}
+

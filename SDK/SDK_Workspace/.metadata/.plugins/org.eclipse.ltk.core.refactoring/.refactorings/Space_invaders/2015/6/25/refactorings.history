@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Space_invaders/src/SI_header&apos; to &apos;SI_header.h&apos;" description="Rename resource &apos;SI_header&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/SI_header" name="SI_header.h" stamp="1434444002578" updateReferences="true"/>
+</session>

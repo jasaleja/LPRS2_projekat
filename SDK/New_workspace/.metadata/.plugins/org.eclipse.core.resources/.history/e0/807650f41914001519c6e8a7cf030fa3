@@ -1,0 +1,22 @@
+/*
+ * SI_globals.h
+ *
+ *  Created on: 16.06.2015.
+ *      Author: student
+ */
+
+#ifndef SI_GLOBALS_H_
+#define SI_GLOBALS_H_
+
+#include "SI_defines.h"
+
+Xuint8	spaceship_speed = 0,
+		projectil_speed = 0,
+		spaceship_flag 	= 0,
+		projectil_flag  = 0,
+		input = 0,
+		flag_row[INIT_ROWS];
+
+int counter = 0;
+
+#endif /* SI_GLOBALS_H_ */

@@ -1,0 +1,33 @@
+/*
+ * SI_globals.c
+ *
+ *  Created on: 16.06.2015.
+ *      Author: student
+ */
+
+#include "SI_globals.h"
+
+Xuint8	spaceship_speed = 0,
+		projectil_speed = 0,
+		spaceship_flag = 0,
+		projectil_flag = 0,
+		input = 0;
+
+int counter = 0;
+
+invader_t invaders[INIT_NUM];		//array of structs invaders
+Xuint8	flag_row[INIT_ROWS];
+char offsets[INIT_ROWS];
+
+void init_arrays()
+{
+	Xuint8 i;
+
+	for(i = 0; i < INIT_ROWS; i++)				//init rigth, left and offsets
+	{
+		rigth[i] = 0;
+		offsets[i] = -1;
+		left[i] = 1;
+	}
+
+}
