@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-06-22T18:56:34</DateModified>
+  <DateModified>2015-06-23T11:41:52</DateModified>
   <ModuleName>system</ModuleName>
-  <SummaryTimeStamp>2015-06-22T18:56:33</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/student/ra772012/lprs2/Projekat/__xps/ise/system.xreport</SavedFilePath>
+  <SummaryTimeStamp>2015-06-23T11:41:52</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/student/ra772012/lprs2/LPRS2_projekat/__xps/ise/system.xreport</SavedFilePath>
   <FilterFile>filter.filter</FilterFile>
-  <SavedFilterFilePath>C:/Users/student/ra772012/lprs2/Projekat/__xps/ise</SavedFilterFilePath>
+  <SavedFilterFilePath>C:/Users/student/ra772012/lprs2/LPRS2_projekat/__xps/ise</SavedFilterFilePath>
   <DateInitialized>2014-03-04T12:48:11</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
