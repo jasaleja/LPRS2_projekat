@@ -14885,3 +14885,27 @@ Done writing filter settings to:
 	C:\Users\student\ra772012\lprs2\LPRS2_projekat\etc\system.filters
 Done writing Tab View settings to:
 	C:\Users\student\ra772012\lprs2\LPRS2_projekat\etc\system.gui
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.6 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+
+********************************************************************************
+At Local date and time: Thu Jun 25 15:20:59 2015
+ make -f system.make exporttosdk started...
+make: Ništa za napraviti za `exporttosdk'.
+Done!
+
+********************************************************************************
+At Local date and time: Thu Jun 25 15:20:59 2015
+ xsdk.exe -hwspec C:\Users\student\ra772012\lprs2\LPRS2_projekat\SDK\SDK_Export\hw\system.xml started...
+Xilinx Software Development Kit
+Xilinx EDK 14.6 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Done!
+Overriding Xilinx file <TextEditor.cfg> with local file <C:/Xilinx/14.6/ISE_DS/EDK/data/TextEditor.cfg>
+Writing filter settings....
+Done writing filter settings to:
+	C:\Users\student\ra772012\lprs2\LPRS2_projekat\etc\system.filters
+Done writing Tab View settings to:
+	C:\Users\student\ra772012\lprs2\LPRS2_projekat\etc\system.gui
