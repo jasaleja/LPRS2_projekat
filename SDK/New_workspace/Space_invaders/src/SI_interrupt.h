@@ -10,6 +10,8 @@
 
 #include "SI_globals.h"
 #include "SI_defines.h"
+#include <stdlib.h>
+#include <time.h>
 
 void vga_interrupt_handler(void*);
 void init_interrupt_controller();

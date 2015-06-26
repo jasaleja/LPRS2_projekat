@@ -1,4 +1,4 @@
-// File: C:\Users\student\ra772012\lprs2\Projekat\implementation\system_stub.bmm
+// File: C:\Users\student\ra772012\lprs2\LPRS2_projekat\implementation\system_stub.bmm
 
 ADDRESS_MAP microblaze_0 MICROBLAZE-LE 100
 	ADDRESS_SPACE microblaze_0_bram_block_combined COMBINED [0x00000000:0x00007fff]

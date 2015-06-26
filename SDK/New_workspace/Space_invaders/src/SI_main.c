@@ -5,9 +5,9 @@
  *      Authors: Nenad Pekez, Sasa Talosi
  */
 
-/* our file */
 #include "SI_logic.h"
 #include "SI_interrupt.h"
+#include <stdlib.h>
 
 void init_colors()
 {
@@ -30,16 +30,37 @@ void init_colors()
 	VGA_PERIPH_MEM_mWriteMemory(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR + 0x4C, 0xd2691e);	//color 15
 }
 
+void clear_text_screen(Xuint32 BaseAddress){
+    int i;
+    for (i = 0; i < 4800; i++)
+    {
+        VGA_PERIPH_MEM_mWriteMemory(BaseAddress + TEXT_MEM_OFF + i*4, 0x20);
+    }
+}
+
+void print_string(Xuint32 BaseAddress, char string_s[], int lenght){
+    int i;
+    for (i = 0; i < lenght; i++)
+    {
+        VGA_PERIPH_MEM_mWriteMemory(BaseAddress + TEXT_MEM_OFF + cursor_position + i*4, (string_s[i]-0x40));
+    }
+}
+
+void set_cursor(Xuint32 new_value)
+{
+    cursor_position = new_value;
+}
+
 int main()
 {
 	/*************************/
 	/* VARIABLES DECLARATION */
 	/*************************/
 
-	Xuint8 row, i, j;
-	Xuint8 spaceship_dir = 0, spaceship_x = 0;
-	Xint8 offsets[INIT_ROWS];
-    Xuint8 rigth[INIT_ROWS], left[INIT_ROWS];	//variables for changing offsets
+	Xuint8 i, j, row[INIT_ROWS];
+	Xuint8 spaceship_dir, spaceship_x;
+	Xuint8 invader_dir[INIT_ROWS], invader_dir_chng[INIT_ROWS];	//Variables for changing invader position
+	Xuint8 invader_x = 0, invader_y = 0;
 
     /************************/
     /***** MAIN PROGRAM *****/
@@ -48,85 +69,145 @@ int main()
 	init_platform();
 	init_interrupt_controller();
 
-	generate_init_invaders_positions();
-
-	VGA_PERIPH_MEM_mWriteMemory(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR + 0x04, 0b10);	//display mode
-
-	init_colors();
-	clear_graphics_screen(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
-
-	/* Init all arrays */
-	for(i = 0; i < INIT_ROWS; i++)				//init rigth, left and offsets
-	{
-		rigth[i] = 0;
-		offsets[i] = -1;
-		left[i] = 1;
-	}
-
-	for(i = 0; i < MAX_PROJECTILES_X; i++)
-	{
-		projectiles_num[i] = 0;
-
-		for(j = 0; j < MAX_PROJECTILES_Y; j++)
-		{
-			projectiles_map[i][j] = 0;
-		}
-	}
-	/*****************/
-
-	draw_ship(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, spaceship_x, MAX_SHIP_Y);
-
-	for(i = 0; i < INIT_NUM; i++)
-	{
-		draw_invader(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, invaders[i].x_crdnt, invaders[i].y_crdnt);
-	}
-
-	draw_projectile(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, spaceship_x + 1 /*??*/, MAX_SHIP_Y - 1);
-	projectiles_map[spaceship_x + 1][MAX_SHIP_Y - 1] = 1;
-	projectiles_num[spaceship_x + 1]++;
-
-	draw_projectile(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, spaceship_x + 4 /*??*/, MAX_SHIP_Y - 1);
-	projectiles_map[spaceship_x + 4][MAX_SHIP_Y - 1] = 1;
-	projectiles_num[spaceship_x + 4]++;
+	clear_text_screen(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
 
 	while(1)
 	{
-		if(input == LEFT_JOY) //23
+		init_colors();
+		clear_graphics_screen(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
+
+		/* Menu */
+		VGA_PERIPH_MEM_mWriteMemory(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR + 0x04, 0b01);    //text mode
+
+		set_cursor(6530);
+		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "SHOOT TO START", 14);
+
+		while(input != MIDDLE_JOY)
 		{
-			spaceship_dir = LEFT_DIR; //0
+			seed++;
+		}
+		srand(seed);
+		/********/
+
+		/* Init all arrays and variables */
+		for(i = 0; i < INIT_ROWS; i++)
+		{
+			invader_dir[i] = LEFT;
+			invader_dir_chng[i] = 1;
+			row[i] = i+1;
+
+			counter = 0;
+			flag_row[i] = 0;
 		}
 
-		if(input == MIDDLE_JOY)	//27
+		for(i = 0; i < MAX_PROJECTILES_X; i++)
 		{
-			shoot_projectile(projectiles_num, spaceship_x);
-		}
+			projectiles_of_ship_num[i] = 0;
 
-		if(input == RIGHT_JOY) //29
-		{
-			spaceship_dir = RIGHT_DIR;
-		}
-
-		if(spaceship_flag)
-		{
-			spaceship_flag = 0;
-			move_spaceship(&spaceship_x, &spaceship_dir);
-		}
-
-		if(projectil_flag == 1)
-		{
-			move_projectile(projectiles_num);
-			projectil_flag = 0;
-		}
-
-		for(row = 0; row < INIT_ROWS; row++)
-		{
-			if(flag_row[row])
+			for(j = 0; j < MAX_PROJECTILES_Y; j++)
 			{
-				move_invaders_row(row, offsets, rigth, left);
-				flag_row[row] = 0;
+				projectiles_map[i][j] = 0;
+				invaders_map[i][j] = 0;
 			}
 		}
-	}
 
+		generate_init_invaders_positions();
+
+		spaceship_dir = 0;
+		spaceship_x = 1;
+
+		invaders_num = INIT_NUM;
+		game_over = 0;
+
+		seed = 0;
+		/*****************/
+
+		/* Initial draw */
+		VGA_PERIPH_MEM_mWriteMemory(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR + 0x04, 0b10);	//display mode
+
+		draw_ship(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, spaceship_x, MAX_SHIP_Y);
+
+		for(i = 0; i < INIT_ROWS; i++)
+		{
+			for(j = 0; j < MAX_PROJECTILES_X; j++)
+			{
+				if(invaders_map[j][row[i]])
+				{
+					draw_invader(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, j, row[i], invaders_map[j][row[i]]);
+				}
+			}
+		}
+		/***************/
+
+		while(1)
+		{
+			if(input == LEFT_JOY)
+			{
+				spaceship_dir = LEFT;
+			}
+
+			if(input == MIDDLE_JOY)
+			{
+				if(shoot_flag == 0)
+				{
+					shoot_projectile_from_ship(spaceship_x);
+					shoot_flag = SHOOT_SPEED;
+				}
+			}
+
+			if(input == RIGHT_JOY)
+			{
+				spaceship_dir = RIGHT;
+			}
+
+			if(spaceship_flag)
+			{
+				move_spaceship(&spaceship_x, &spaceship_dir);
+				spaceship_flag = 0;
+			}
+
+			if(projectil_flag)
+			{
+				move_projectile_from_ship(projectiles_map, projectiles_of_ship_num);
+				projectil_flag = 0;
+			}
+
+			if(flag)
+			{
+				invader_x = rand()%80;
+				invader_y = row[rand()%3];
+				//shoot_projectile_from_invader(invader_x, invader_y);
+				flag = 0;
+			}
+
+			for(i = 0; i < INIT_ROWS; i++)
+			{
+				if(flag_row[i])
+				{
+					if(invader_dir_chng[i] == DOWN)
+					{
+						invader_dir_chng[i]++;
+						move_invaders_down(row, i);
+					}
+					else
+						move_invaders_row(row, invader_dir, invader_dir_chng, i);
+
+					flag_row[i] = 0;
+				}
+			}
+
+			if(invaders_num == 0 || game_over)
+				break;
+		}
+
+		VGA_PERIPH_MEM_mWriteMemory(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR + 0x04, 0b01);    //text mode
+		clear_text_screen(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
+		set_cursor(3660);
+
+		if(game_over)
+			print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "GAME OVER", 9);
+		else
+			print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "YOU WON", 7);
+	}
     return 0;
 }

@@ -13,9 +13,14 @@
 #include "SI_draw.h"
 
 void move_spaceship(Xuint8*, Xuint8*);
-void shoot_projectile(Xuint8*, Xuint8);
-void move_projectile(Xuint8*);
-void move_invaders_row(Xuint8, Xint8*, Xuint8*, Xuint8*);
+void shoot_projectile_from_ship(Xuint8);
+void move_projectile_from_ship();
+void move_projectile_from_invader();
+Xint8 projectile_hit_invader(Xint8, Xint8);
+Xint8 invader_hit_projectile(Xint8, Xint8);
+Xint8 invader_hit_projectile_down(Xint8, Xint8);
+void move_invaders_row(Xuint8*, Xuint8*, Xuint8*, Xuint8);
+void move_invaders_down(Xuint8*, Xuint8);
 void generate_init_invaders_positions();
 
 #endif /* SI_LOGIC_H_ */

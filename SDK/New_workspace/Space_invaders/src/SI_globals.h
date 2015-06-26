@@ -17,15 +17,22 @@ extern  Xuint8	spaceship_speed,
 		projectil_speed,
 		spaceship_flag,
 		projectil_flag,
+		shoot_flag,
+		game_over,
 		input;
 
+extern Xuint32 cursor_position;
 extern int counter;
+
 Xuint8 flag_row[INIT_ROWS];
 /****************************/
 
-invader_t invaders[INIT_NUM];		//array of structs invaders
+int flag, counter1, s, seed;
 
+Xuint8 invaders_map[MAX_PROJECTILES_X][MAX_PROJECTILES_Y];
+Xuint8 invaders_num;
+
+Xuint8 projectiles_of_ship_num[MAX_PROJECTILES_X];	//Number of projectiles in column
 Xuint8 projectiles_map[MAX_PROJECTILES_X][MAX_PROJECTILES_Y];
-Xuint8 projectiles_num[MAX_PROJECTILES_X];	//num of projectiles in column
 
 #endif /* SI_GLOBALS_H_ */
