@@ -27,12 +27,12 @@ extern int counter;
 Xuint8 flag_row[INIT_ROWS];
 /****************************/
 
-int flag, counter1, s, seed;
+//int flag, counter1, seed;
 
-Xuint8 invaders_map[MAX_PROJECTILES_X][MAX_PROJECTILES_Y];
-Xuint8 invaders_num;
+extern Xuint8 invaders_map[MAX_PROJECTILES_X][MAX_PROJECTILES_Y];
+extern Xuint8 invaders_num;
 
-Xuint8 projectiles_of_ship_num[MAX_PROJECTILES_X];	//Number of projectiles in column
-Xuint8 projectiles_map[MAX_PROJECTILES_X][MAX_PROJECTILES_Y];
+extern Xuint8 projectiles_of_ship_num[MAX_PROJECTILES_X];	//Number of projectiles in column
+extern Xuint8 projectiles_map[MAX_PROJECTILES_X][MAX_PROJECTILES_Y];
 
 #endif /* SI_GLOBALS_H_ */

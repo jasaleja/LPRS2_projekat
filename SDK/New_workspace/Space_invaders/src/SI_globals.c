@@ -19,4 +19,10 @@ Xuint8	spaceship_speed = 0,
 Xuint32 cursor_position = 0;
 int counter = 0;
 
+Xuint8 invaders_map[MAX_PROJECTILES_X][MAX_PROJECTILES_Y];
+Xuint8 invaders_num;
+
+Xuint8 projectiles_of_ship_num[MAX_PROJECTILES_X];	//Number of projectiles in column
+Xuint8 projectiles_map[MAX_PROJECTILES_X][MAX_PROJECTILES_Y];
+
 XIntc Intc;

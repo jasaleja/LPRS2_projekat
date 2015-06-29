@@ -25,17 +25,17 @@
 #define GRAPHICS_MEM_OFF 0x2000000
 #define TEXT_MEM_OFF 0x1000000
 
-#define INIT_ROWS 3
+#define INVADER_INIT_ROW 10
+#define INIT_ROWS 2
 #define INIT_COLS 9
 #define INIT_NUM INIT_ROWS*INIT_COLS
 
-#define MIN_SHIP_Y 0
-#define MAX_SHIP_Y 14
+#define SHIP_Y 14
 #define MIN_SHIP_X 1
 #define MAX_SHIP_X 78
 
 #define MAX_PROJECTILES_Y 15
-#define MAX_PROJECTILES_X 79
+#define MAX_PROJECTILES_X 80
 
 #define LEFT 0
 #define RIGHT 1
@@ -45,8 +45,8 @@
 #define MIDDLE_JOY 27
 #define RIGHT_JOY 29
 
-#define INVADER_SPEED 60
-#define SPACESHIP_SPEED 18
+#define INVADER_SPEED 45
+#define SPACESHIP_SPEED 8
 #define PROJECTILE_SPEED 12
 #define SHOOT_SPEED 25
 

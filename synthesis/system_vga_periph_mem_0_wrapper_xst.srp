@@ -1,10 +1,10 @@
 Release 14.6 - xst P.68d (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:\Users\student\ra772012\lprs2\LPRS2_projekat\synthesis\xst_temp_dir\
+--> Parameter TMPDIR set to C:\Users\student\ra772012\lprs2\Stari\LPRS2_projekat\synthesis\xst_temp_dir\
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> 
 TABLE OF CONTENTS
@@ -35,7 +35,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_vga_periph_mem_0_wrapper_xst.prj"
-Verilog Include Directory          : {"C:\Users\student\ra772012\lprs2\LPRS2_projekat\pcores\" "C:\Xilinx\14.6\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.6\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"C:\Users\student\ra772012\lprs2\Stari\LPRS2_projekat\pcores\" "C:\Xilinx\14.6\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.6\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc6slx45fgg676-2
@@ -433,66 +433,66 @@ Parsing architecture <imp> of entity <addr_gen>.
 Parsing VHDL file "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_slave_burst_v1_00_a/hdl/vhdl/axi_slave_burst.vhd" into library axi_slave_burst_v1_00_a
 Parsing entity <axi_slave_burst>.
 Parsing architecture <imp> of entity <axi_slave_burst>.
-Parsing VHDL file "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" into library vga_periph_mem_v1_00_a
+Parsing VHDL file "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" into library vga_periph_mem_v1_00_a
 Parsing entity <user_logic>.
 Parsing architecture <IMP> of entity <user_logic>.
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 418: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 419: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 420: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 421: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 422: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 423: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 424: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 425: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 426: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 427: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 428: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 429: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 430: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 431: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 432: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 433: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 434: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 435: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 436: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 437: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 438: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 439: Case choice must be a locally static expression
-WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 440: Case choice must be a locally static expression
-Parsing VHDL file "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga_periph_mem.vhd" into library vga_periph_mem_v1_00_a
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 418: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 419: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 420: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 421: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 422: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 423: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 424: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 425: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 426: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 427: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 428: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 429: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 430: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 431: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 432: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 433: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 434: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 435: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 436: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 437: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 438: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 439: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 440: Case choice must be a locally static expression
+Parsing VHDL file "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga_periph_mem.vhd" into library vga_periph_mem_v1_00_a
 Parsing entity <vga_periph_mem>.
 Parsing architecture <IMP> of entity <vga_periph_mem>.
-Parsing VHDL file "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/char_rom.vhd" into library vga_periph_mem_v1_00_a
+Parsing VHDL file "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/char_rom.vhd" into library vga_periph_mem_v1_00_a
 Parsing entity <char_rom>.
 Parsing architecture <Behavioral> of entity <char_rom>.
-Parsing VHDL file "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/dcm108MHz.vhd" into library vga_periph_mem_v1_00_a
+Parsing VHDL file "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/dcm108MHz.vhd" into library vga_periph_mem_v1_00_a
 Parsing entity <dcm108MHz>.
 Parsing architecture <xilinx> of entity <dcm108mhz>.
-Parsing VHDL file "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/dcm25MHz.vhd" into library vga_periph_mem_v1_00_a
+Parsing VHDL file "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/dcm25MHz.vhd" into library vga_periph_mem_v1_00_a
 Parsing entity <dcm25MHz>.
 Parsing architecture <xilinx> of entity <dcm25mhz>.
-Parsing VHDL file "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/dcm50MHz.vhd" into library vga_periph_mem_v1_00_a
+Parsing VHDL file "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/dcm50MHz.vhd" into library vga_periph_mem_v1_00_a
 Parsing entity <dcm50MHz>.
 Parsing architecture <xilinx> of entity <dcm50mhz>.
-Parsing VHDL file "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/dcm75MHz.vhd" into library vga_periph_mem_v1_00_a
+Parsing VHDL file "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/dcm75MHz.vhd" into library vga_periph_mem_v1_00_a
 Parsing entity <dcm75MHz>.
 Parsing architecture <xilinx> of entity <dcm75mhz>.
-Parsing VHDL file "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/graphics_mem.vhd" into library vga_periph_mem_v1_00_a
+Parsing VHDL file "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/graphics_mem.vhd" into library vga_periph_mem_v1_00_a
 Parsing entity <graphics_mem>.
 Parsing architecture <arc_graphics_mem> of entity <graphics_mem>.
-Parsing VHDL file "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/text_mem.vhd" into library vga_periph_mem_v1_00_a
+Parsing VHDL file "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/text_mem.vhd" into library vga_periph_mem_v1_00_a
 Parsing entity <text_mem>.
 Parsing architecture <arc_text_mem> of entity <text_mem>.
-Parsing VHDL file "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga.vhd" into library vga_periph_mem_v1_00_a
+Parsing VHDL file "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga.vhd" into library vga_periph_mem_v1_00_a
 Parsing entity <vga>.
 Parsing architecture <rtl> of entity <vga>.
-Parsing VHDL file "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga_sync.vhd" into library vga_periph_mem_v1_00_a
+Parsing VHDL file "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga_sync.vhd" into library vga_periph_mem_v1_00_a
 Parsing entity <vga_sync>.
 Parsing architecture <rtl> of entity <vga_sync>.
-Parsing VHDL file "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga_top.vhd" into library vga_periph_mem_v1_00_a
+Parsing VHDL file "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga_top.vhd" into library vga_periph_mem_v1_00_a
 Parsing entity <vga_top>.
 Parsing architecture <rtl> of entity <vga_top>.
-Parsing VHDL file "C:\Users\student\ra772012\lprs2\LPRS2_projekat\hdl\system_vga_periph_mem_0_wrapper.vhd" into library work
+Parsing VHDL file "C:\Users\student\ra772012\lprs2\Stari\LPRS2_projekat\hdl\system_vga_periph_mem_0_wrapper.vhd" into library work
 Parsing entity <system_vga_periph_mem_0_wrapper>.
 Parsing architecture <STRUCTURE> of entity <system_vga_periph_mem_0_wrapper>.
 
@@ -525,40 +525,40 @@ Elaborating entity <address_decode> (architecture <imp>) with generics from libr
 WARNING:HDLCompiler:1127 - "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_slave_burst_v1_00_a/hdl/vhdl/address_decode.vhd" Line 368: Assignment to addr_out_s_h ignored, since the identifier is never used
 
 Elaborating entity <user_logic> (architecture <IMP>) with generics from library <vga_periph_mem_v1_00_a>.
-WARNING:HDLCompiler:1127 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 472: Assignment to mem_address ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 472: Assignment to mem_address ignored, since the identifier is never used
 
 Elaborating entity <vga_top> (architecture <rtl>) with generics from library <vga_periph_mem_v1_00_a>.
 
 Elaborating entity <vga> (architecture <rtl>) with generics from library <vga_periph_mem_v1_00_a>.
-WARNING:HDLCompiler:89 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga.vhd" Line 151: <srl16> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga.vhd" Line 151: <srl16> remains a black-box since it has no binding entity.
 
 Elaborating entity <vga_sync> (architecture <rtl>) with generics from library <vga_periph_mem_v1_00_a>.
 
 Elaborating entity <dcm25MHz> (architecture <xilinx>) from library <vga_periph_mem_v1_00_a>.
 
 Elaborating entity <char_rom> (architecture <Behavioral>) from library <vga_periph_mem_v1_00_a>.
-WARNING:HDLCompiler:89 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/char_rom.vhd" Line 40: <char_rom_def> remains a black-box since it has no binding entity.
-INFO:HDLCompiler:679 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/char_rom.vhd" Line 77. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:89 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/char_rom.vhd" Line 40: <char_rom_def> remains a black-box since it has no binding entity.
+INFO:HDLCompiler:679 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/char_rom.vhd" Line 77. Case statement is complete. others clause is never selected
 
 Elaborating entity <text_mem> (architecture <arc_text_mem>) with generics from library <vga_periph_mem_v1_00_a>.
 
 Elaborating entity <graphics_mem> (architecture <arc_graphics_mem>) with generics from library <vga_periph_mem_v1_00_a>.
-WARNING:HDLCompiler:1127 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga_top.vhd" Line 349: Assignment to grid_size ignored, since the identifier is never used
-WARNING:HDLCompiler:89 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 291: <oddr2> remains a black-box since it has no binding entity.
-WARNING:HDLCompiler:634 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 314: Net <mem_data_out[0][31]> does not have a driver.
+WARNING:HDLCompiler:1127 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga_top.vhd" Line 349: Assignment to grid_size ignored, since the identifier is never used
+WARNING:HDLCompiler:89 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 291: <oddr2> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:634 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" Line 314: Net <mem_data_out[0][31]> does not have a driver.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <system_vga_periph_mem_0_wrapper>.
-    Related source file is "C:\Users\student\ra772012\lprs2\LPRS2_projekat\hdl\system_vga_periph_mem_0_wrapper.vhd".
+    Related source file is "C:\Users\student\ra772012\lprs2\Stari\LPRS2_projekat\hdl\system_vga_periph_mem_0_wrapper.vhd".
     Summary:
 	no macro.
 Unit <system_vga_periph_mem_0_wrapper> synthesized.
 
 Synthesizing Unit <vga_periph_mem>.
-    Related source file is "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga_periph_mem.vhd".
+    Related source file is "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga_periph_mem.vhd".
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
         C_S_AXI_DATA_WIDTH = 32
@@ -845,7 +845,7 @@ WARNING:Xst:647 - Input <S_AXI_AWVALID> is never used. This port will be preserv
 Unit <address_decode> synthesized.
 
 Synthesizing Unit <user_logic>.
-    Related source file is "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd".
+    Related source file is "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd".
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
         RES_TYPE = 1
@@ -868,7 +868,7 @@ WARNING:Xst:647 - Input <Bus2IP_Burst> is never used. This port will be preserve
 WARNING:Xst:647 - Input <Bus2IP_RdReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Bus2IP_WrReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Type_of_xfer> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" line 550: Output port <vga_rst_n_o> of the instance <vga_top_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/user_logic.vhd" line 550: Output port <vga_rst_n_o> of the instance <vga_top_i> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <mem_data_out<0>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 1-bit register for signal <show_frame>.
     Found 1-bit register for signal <direct_mode>.
@@ -906,7 +906,7 @@ WARNING:Xst:653 - Signal <mem_data_out<0>> is used but never assigned. This sour
 Unit <user_logic> synthesized.
 
 Synthesizing Unit <vga_top>.
-    Related source file is "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga_top.vhd".
+    Related source file is "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga_top.vhd".
         H_RES = 640
         V_RES = 480
         MEM_ADDR_WIDTH = 14
@@ -937,7 +937,7 @@ WARNING:Xst:737 - Found 1-bit latch for signal <active_pixel_s<3>>. Latches may 
 Unit <vga_top> synthesized.
 
 Synthesizing Unit <vga>.
-    Related source file is "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga.vhd".
+    Related source file is "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga.vhd".
         RESOLUTION_TYPE = 1
         H_RES = 640
         V_RES = 480
@@ -947,7 +947,7 @@ Synthesizing Unit <vga>.
 Unit <vga> synthesized.
 
 Synthesizing Unit <vga_sync>.
-    Related source file is "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga_sync.vhd".
+    Related source file is "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga_sync.vhd".
         HORIZONTAL_RES = 640
         VERTICAL_RES = 480
         FRAME_SIZE = 4
@@ -993,20 +993,20 @@ Synthesizing Unit <vga_sync>.
 Unit <vga_sync> synthesized.
 
 Synthesizing Unit <dcm25MHz>.
-    Related source file is "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/dcm25MHz.vhd".
+    Related source file is "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/dcm25MHz.vhd".
     Summary:
 	no macro.
 Unit <dcm25MHz> synthesized.
 
 Synthesizing Unit <char_rom>.
-    Related source file is "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/char_rom.vhd".
+    Related source file is "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/char_rom.vhd".
     Found 1-bit 8-to-1 multiplexer for signal <rom_mux_output_o> created at line 67.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <char_rom> synthesized.
 
 Synthesizing Unit <text_mem>.
-    Related source file is "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/text_mem.vhd".
+    Related source file is "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/text_mem.vhd".
         MEM_ADDR_WIDTH = 14
         MEM_DATA_WIDTH = 6
         MEM_SIZE = 4800
@@ -1024,7 +1024,7 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <text_me
 Unit <text_mem> synthesized.
 
 Synthesizing Unit <graphics_mem>.
-    Related source file is "C:/Users/student/ra772012/lprs2/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/graphics_mem.vhd".
+    Related source file is "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/pcores/vga_periph_mem_v1_00_a/hdl/vhdl/graphics_mem.vhd".
         MEM_ADDR_WIDTH = 20
         MEM_DATA_WIDTH = 32
         MEM_SIZE = 1228800
@@ -1736,11 +1736,11 @@ clk_i          |         |         |   10.327|         |
 
 
 Total REAL time to Xst completion: 21.00 secs
-Total CPU time to Xst completion: 20.82 secs
+Total CPU time to Xst completion: 21.06 secs
  
 --> 
 
-Total memory usage is 346444 kilobytes
+Total memory usage is 331724 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  156 (   0 filtered)
