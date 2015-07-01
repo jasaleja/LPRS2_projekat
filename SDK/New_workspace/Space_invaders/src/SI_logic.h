@@ -15,15 +15,15 @@
 void move_spaceship(Xuint8*, Xuint8*);
 Xint8 projectile_hit_invader(int, int);
 void move_projectile_from_ship();
+void move_projectile_from_invader();
 Xint8 invader_hit_projectile(int, int);
 void move_invaders_row(Xuint8*, Xuint8*, Xuint8*, int);
 Xint8 invader_hit_projectile_down(int, int);
+Xint8 projectile_hit_projectile(int, int);
 void move_invaders_down(Xuint8*, Xuint8);
 void shoot_projectile_from_ship(Xuint8);
+void shoot_projectile_from_invader(Xuint8, Xuint8*);
 void generate_init_invaders_positions();
 
-
-
-void move_projectile_from_invader();
 
 #endif /* SI_LOGIC_H_ */

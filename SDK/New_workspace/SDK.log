@@ -924,3 +924,133 @@ If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx 
 	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
 
 19:34:46.805 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+11:40:25.248 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\LPRS2_projekat\SDK\SDK_Export\hw\system.xml. 
+11:40:26.574 INFO  - The hardware specification for project 'Projekat_hw_platform' is different from C:\Users\student\ra772012\lprs2\LPRS2_projekat\SDK\SDK_Export\hw\system.xml. 
+11:40:26.589 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\LPRS2_projekat\SDK\SDK_Export\hw\system.xml into \Projekat_hw_platform\system.xml. 
+11:40:26.605 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\LPRS2_projekat\SDK\SDK_Export\hw\system.bit into \Projekat_hw_platform\system.bit. 
+11:40:26.621 INFO  - Copied contents of C:\Users\student\ra772012\lprs2\LPRS2_projekat\SDK\SDK_Export\hw\system_bd.bmm into \Projekat_hw_platform\system_bd.bmm. 
+11:40:27.182 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+11:40:28.898 INFO  - Updating hardware inferred compiler options for Space_invaders. 
+11:40:28.929 INFO  - Clearing existing target manager status. 
+11:40:31.145 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+11:48:30.067 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+11:49:28.425 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/SDK/New_workspace/Projekat_hw_platform/download.bit" 
+11:51:01.837 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:51:35.924 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:57:51.003 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:02:39.974 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:04:10.611 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:09:24.995 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:09:42.142 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:10:20.159 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:11:06.227 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:11:30.580 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:15:26.451 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:15:55.078 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:16:40.070 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:17:03.332 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:18:01.863 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:18:24.359 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:21:05.320 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:22:56.486 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:24:08.013 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:24:50.713 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:25:29.808 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:26:04.661 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:26:33.600 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:27:32.694 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:28:19.871 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:34:01.230 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:34:40.543 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:38:26.680 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:43:46.634 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:44:27.367 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:46:13.947 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:49:01.569 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:01:18.008 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:02:42.462 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:02:56.908 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:18:18.697 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:19:12.895 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:53:48.429 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:56:42.444 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:57:23.686 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:58:03.680 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:59:12.641 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:59:32.799 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:00:31.867 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:00:53.959 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:05:38.501 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:11:42.621 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:12:23.319 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:13:21.965 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:15:50.439 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:16:08.800 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:17:13.949 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:18:30.827 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:24:56.884 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:31:23.854 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:36:37.228 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:36:59.978 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:40:24.411 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:43:16.189 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:46:06.191 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:59:38.863 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:01:20.242 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:06:22.057 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:09:01.007 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:09:37.418 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:29:56.185 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:41:21.483 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\LPRS2_projekat\SDK\SDK_Export\hw\system.xml. 
+14:41:34.732 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+14:42:23.982 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/SDK/New_workspace/Projekat_hw_platform/download.bit" 
+14:43:19.082 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:45:30.358 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/SDK/New_workspace/Projekat_hw_platform/download.bit" 
+14:46:18.998 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:46:35.051 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:49:07.722 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/SDK/New_workspace/Projekat_hw_platform/download.bit" 
+14:51:05.625 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:51:32.489 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:00:39.356 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:01:04.583 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:03:59.750 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:05:02.218 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:07:58.337 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:08:50.319 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:11:43.188 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:43:26.240 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:43:45.139 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:47:27.005 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:50:01.202 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:07:19.309 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:07:46.945 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:10:13.541 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:11:29.125 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:14:22.507 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:15:28.680 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:17:09.172 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:23:36.411 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:25:59.724 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:50:38.624 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:51:44.844 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:56:11.140 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:00:43.917 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:02:00.359 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:03:37.489 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:09:29.844 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:09:42.537 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:14:47.437 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:15:16.782 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:22:54.311 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:24:07.008 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:24:29.399 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:31:01.627 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

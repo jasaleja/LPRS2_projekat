@@ -1,6 +1,6 @@
-19:31:30 **** Incremental Build of configuration Debug for project Space_invaders ****
+17:24:28 **** Incremental Build of configuration Debug for project Space_invaders ****
 make all 
 make: Ništa za napraviti za `all'.
 
-19:31:30 Build Finished (took 122ms)
+17:24:28 Build Finished (took 119ms)
 

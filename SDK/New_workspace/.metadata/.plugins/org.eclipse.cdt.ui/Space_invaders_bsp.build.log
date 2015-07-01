@@ -1,4 +1,4 @@
-19:21:08 **** Build of project Space_invaders_bsp ****
+17:14:56 **** Build of project Space_invaders_bsp ****
 make -k all 
 libgen -hw ../Projekat_hw_platform/system.xml\
 	       \
@@ -35,5 +35,5 @@ Compiling cpu
 Running execs_generate.
 Finished building libraries
 
-19:21:17 Build Finished (took 8s.776ms)
+17:15:04 Build Finished (took 7s.985ms)
 
