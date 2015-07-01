@@ -2454,3 +2454,1005 @@ java.lang.NullPointerException
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2015-07-01 17:33:15.326 -----------------------------------------------
+eclipse.buildId=Release 14.6 Build SDK_P.68d
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=sr
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:03.476
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.core.CommandLauncher.printCommandLine(CommandLauncher.java:280)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:243)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:248)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:03.514
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:03.518
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:03.522
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:03.523
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:03.525
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:04.318
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:04.320
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:04.324
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:04.325
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:04.329
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:04.330
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:04.332
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:04.545
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:04.546
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:05.732
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:05.739
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:06.288
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:06.339
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:06.342
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:06.345
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:06.346
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:07.081
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:07.084
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:07.087
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:07.090
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:07.092
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:07.150
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:07.780
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:09.738
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:10.852
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:11.500
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:12.111
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:12.358
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:12.605
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:37:12.630
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:160)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:68)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:97)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:192)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:252)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:248)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-07-01 17:49:24.054
+!MESSAGE An internal error occurred during: "Launching Space_invaders.elf".
+!STACK 0
+java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.stopRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.terminate(Unknown Source)
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 125 2015-07-01 17:56:55.595
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2015-07-01 17:56:55.595
+!MESSAGE {R,T}xThread terminated
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-07-01 17:58:13.036
+!MESSAGE An internal error occurred during: "Launching Space_invaders.elf".
+!STACK 0
+java.lang.RuntimeException: No Target with ID 0 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.stopRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.terminate(Unknown Source)
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:58:43.084
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.core.CommandLauncher.printCommandLine(CommandLauncher.java:280)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:243)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:248)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:58:43.146
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 17:58:43.209
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:160)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:68)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:97)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:192)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:252)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:248)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:08.832
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:08.879
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:08.879
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:08.879
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:08.895
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:08.895
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:09.784
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:09.799
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:09.799
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:09.799
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:09.799
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:09.799
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:09.815
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:10.018
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:10.018
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:10.938
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:10.938
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:11.328
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:11.375
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:11.375
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:11.390
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:11.390
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:12.139
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:12.139
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:12.155
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:12.155
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:12.155
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:12.202
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:12.810
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:14.401
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:15.056
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:15.664
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:16.273
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:16.507
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:16.756
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:29:16.772
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:160)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:68)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:97)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:192)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:252)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:248)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:44.121
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:44.168
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:44.168
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:44.168
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:44.168
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:44.168
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:44.932
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:44.932
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:44.932
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:44.932
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:44.932
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:44.932
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:44.932
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:45.135
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:45.135
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:46.086
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:46.102
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:46.461
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:46.508
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:46.508
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:46.508
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:46.523
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:47.288
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:47.303
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:47.319
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:47.350
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:47.350
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:47.366
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:47.958
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:49.674
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:50.330
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:50.969
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:51.562
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:51.796
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:52.046
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2015-07-01 18:38:52.108
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:160)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:68)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:97)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:192)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:252)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:248)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 0 2015-07-01 18:39:13.326
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.debug.core.DebugPlugin.stop() of bundle org.eclipse.debug.core.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:791)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+Caused by: java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.stopRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.terminate(Unknown Source)
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:252)
+	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2359)
+	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:622)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	... 19 more
+Root exception:
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.stopRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.terminate(Unknown Source)
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:252)
+	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2359)
+	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:622)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)

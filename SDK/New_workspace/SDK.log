@@ -1054,3 +1054,43 @@ Failed to Scan JTAG Chain
 17:24:07.008 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
 17:24:29.399 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
 17:31:01.627 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:33:23.859 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\LPRS2_projekat\SDK\SDK_Export\hw\system.xml. 
+17:49:21.183 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:49:21.947 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:49:23.103 ERROR - Unexpected error while launching program. java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.TM.terminateCurrentLaunch(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(Unknown Source)
+
+17:49:23.727 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Invalid Target ID
+    Target '0' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setSafeMode(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+17:56:35.903 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:56:38.197 INFO  - System reset is completed. 
+17:56:54.798 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:58:12.381 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Debug Operation Not Supported on the Target
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+17:58:42.131 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/SDK/New_workspace/Projekat_hw_platform/download.bit" 
+18:06:29.421 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:07:18.641 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:08:01.604 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:17:06.736 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:21:35.198 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:29:23.495 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:34:08.009 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:35:37.991 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:36:07.835 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:37:09.455 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:37:35.587 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:37:51.891 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:39:13.058 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+18:39:13.058 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

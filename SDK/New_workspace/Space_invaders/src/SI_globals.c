@@ -11,6 +11,7 @@
 XIntc Intc;
 
 Xuint8	spaceship_speed = 0,
+		spaceship_x = 0,
 		projectil_speed = 0,
 		spaceship_flag = 0,
 		projectil_flag = 0,
@@ -20,6 +21,7 @@ Xuint8	spaceship_speed = 0,
 		counter = 0,
 		invaders_num = INIT_NUM,
 		game_over = 0,
+		seed = 0,
 		input = 0;
 
 Xuint8 flag_row[INIT_ROWS];
@@ -35,4 +37,3 @@ Xuint8 projectiles_map[MAX_PROJECTILES_X][MAX_PROJECTILES_Y];
 /****************************/
 
 Xuint32 cursor_position = 0;
-Xuint32 seed = 0;

@@ -14,6 +14,7 @@
 extern XIntc Intc;
 
 extern  Xuint8	spaceship_speed,
+		spaceship_x,
 		projectil_speed,
 		invader_speed,
 		spaceship_flag,
@@ -22,6 +23,7 @@ extern  Xuint8	spaceship_speed,
 		invader_shoot_flag,
 		counter,
 		game_over,
+		seed,
 		input;
 
 extern Xuint8 flag_row[INIT_ROWS];
@@ -37,6 +39,5 @@ extern Xuint8 projectiles_map[MAX_PROJECTILES_X][MAX_PROJECTILES_Y];
 /****************************/
 
 extern Xuint32 cursor_position;
-extern Xuint32 seed;
 
 #endif /* SI_GLOBALS_H_ */

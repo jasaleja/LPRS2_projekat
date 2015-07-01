@@ -30,7 +30,7 @@ void init_colors()
 	VGA_PERIPH_MEM_mWriteMemory(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR + 0x4C, 0xd2691e);	//color 15
 }
 
-void init_variables(Xuint8* spaceship_dir, Xuint8* spaceship_x, Xuint8* invader_dir, Xuint8* invader_dir_chng, Xuint8* row)
+void init_variables(Xuint8* spaceship_dir, Xuint8* invader_dir, Xuint8* invader_dir_chng, Xuint8* row)
 {
 	int i, j;
 
@@ -58,15 +58,23 @@ void init_variables(Xuint8* spaceship_dir, Xuint8* spaceship_x, Xuint8* invader_
 	}
 
 	*spaceship_dir = 0;
-	*spaceship_x = 1;
+	spaceship_x = 7;
 
+	spaceship_speed = 0;
+	projectil_speed = 0;
+	spaceship_flag = 0;
+	projectil_flag = 0;
+	invader_speed = 0;
+	shoot_flag = 0;
+	invader_shoot_flag = 0;
+	counter = 0;
 	invaders_num = INIT_NUM;
 	game_over = 0;
 	seed = 0;
-	projectil_flag = 0;
+	input = 0;
 }
 
-void init_draw(Xuint8 spaceship_x, Xuint8* row)
+void init_draw(Xuint8* row)
 {
 	int i, j;
 
@@ -118,7 +126,7 @@ int main()
 	/*************************/
 
 	Xuint8 i, row[INIT_ROWS];
-	Xuint8 spaceship_dir, spaceship_x;
+	Xuint8 spaceship_dir;
 	Xuint8 invader_dir[INIT_ROWS], invader_dir_chng[INIT_ROWS];	//Variables for changing invader position
 	Xuint8 invader_x;
 
@@ -149,9 +157,9 @@ int main()
 		srand(seed);
 		/********/
 
-		init_variables(&spaceship_dir, &spaceship_x, invader_dir, invader_dir_chng, row);
+		init_variables(&spaceship_dir, invader_dir, invader_dir_chng, row);
 		generate_init_invaders_positions();
-		init_draw(spaceship_x, row);
+		init_draw(row);
 
 		while((invaders_num > 0) && (game_over == 0))
 		{
@@ -176,13 +184,13 @@ int main()
 
 			if(spaceship_flag)	//time to move spaceship
 			{
-				move_spaceship(&spaceship_x, &spaceship_dir);
+				move_spaceship(&spaceship_dir);
 				spaceship_flag = 0;
 			}
 
 			if(projectil_flag)	//time to move projectiles
 			{
-				move_projectile_from_ship(projectiles_map, projectiles_of_ship_num);
+				move_projectile_from_ship();
 				move_projectile_from_invader();
 				projectil_flag = 0;
 			}
@@ -204,7 +212,7 @@ int main()
 						move_invaders_down(row, i);
 					}
 					else							//if not, move rows left/right
-						move_invaders_row(row, invader_dir, invader_dir_chng, i);
+						//move_invaders_row(row, invader_dir, invader_dir_chng, i);
 
 					flag_row[i] = 0;
 				}

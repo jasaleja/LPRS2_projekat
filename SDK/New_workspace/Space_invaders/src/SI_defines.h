@@ -26,7 +26,7 @@
 #define TEXT_MEM_OFF 0x1000000
 
 #define INVADER_INIT_ROW 1
-#define INIT_ROWS 4
+#define INIT_ROWS 3
 #define INIT_COLS 9
 #define INIT_NUM INIT_ROWS*INIT_COLS
 

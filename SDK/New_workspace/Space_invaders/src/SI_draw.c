@@ -209,9 +209,23 @@ void draw_projectile(Xuint32 BaseAddress, Xuint8 x_crdnt, Xuint8 y_crdnt)
 	int j, k;
 	k = x_crdnt;
 
-	for (j = 2 + 32*y_crdnt; j < 30 + 32*y_crdnt; j++)
+	for (j = 4 + 32*y_crdnt; j < 28 + 32*y_crdnt; j++)
 	{
 		VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (j*(640/8) + k)*4, 0x00033000);
+	}
+}
+
+void draw_invader_projectile(Xuint32 BaseAddress, Xuint8 x_crdnt, Xuint8 y_crdnt)
+{
+	int j, k;
+	k = x_crdnt;
+
+	for (j = 6 + 32*y_crdnt; j < 26 + 32*y_crdnt; j++)
+	{
+		if (j >= (7 + 32*y_crdnt) && j < (9 + 32*y_crdnt))
+			VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (j*(640/8) + k)*4, 0x02222220);
+		else
+			VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (j*(640/8) + k)*4, 0x00022000);
 	}
 }
 

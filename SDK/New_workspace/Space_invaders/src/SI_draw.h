@@ -14,6 +14,7 @@ void draw_square(Xuint32, Xuint8, Xuint8);
 void draw_invader(Xuint32, Xuint8, Xuint8, Xuint8);
 void draw_ship(Xuint32, Xuint8, Xuint8);
 void draw_projectile(Xuint32, Xuint8, Xuint8);
+void draw_invader_projectile(Xuint32, Xuint8, Xuint8);
 void erase_projectile(Xuint32, Xuint8, Xuint8);
 void erase_square(Xuint32, Xuint8, Xuint8);
 void clear_graphics_screen(Xuint32);
