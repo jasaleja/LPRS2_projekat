@@ -48,7 +48,6 @@
 #define RIGHT_JOY 29
 
 #define INVADER_SPEED 40
-#define SPACESHIP_SPEED 8
 #define PROJECTILE_SPEED 12
 #define SHOOT_SPEED 25
 

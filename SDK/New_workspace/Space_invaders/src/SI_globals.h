@@ -14,6 +14,7 @@
 extern XIntc Intc;
 
 extern  Xuint8	spaceship_speed,
+		spaceship_speed_cnt,
 		spaceship_x,
 		projectil_speed,
 		invader_speed,

@@ -9,6 +9,7 @@
 #define SI_DRAW_H_
 
 #include "SI_defines.h"
+#include "SI_globals.h"
 
 void draw_square(Xuint32, Xuint8, Xuint8);
 void draw_invader(Xuint32, Xuint8, Xuint8, Xuint8);
