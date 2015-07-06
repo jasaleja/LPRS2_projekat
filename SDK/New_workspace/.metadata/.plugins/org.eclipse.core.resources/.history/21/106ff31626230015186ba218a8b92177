@@ -1,0 +1,24 @@
+/*
+ * SI_utilities.h
+ *
+ *  Created on: 05.07.2015.
+ *      Author: student
+ */
+
+#ifndef SI_UTILITIES_H_
+#define SI_UTILITIES_H_
+
+#include "SI_defines.h"
+#include "SI_globals.h"
+#include "SI_draw.h"
+
+void init_colors();
+void init_variables(Xuint8* spaceship_dir, Xuint8* invader_dir, Xuint8* invader_dir_chng, Xuint8* row);
+void init_draw(Xuint8* row);
+void clear_text_screen(Xuint32 BaseAddress);
+void print_string(Xuint32 BaseAddress, char string_s[], int lenght);
+void set_cursor(Xuint32 new_value);
+int num_len(int num);
+void num_to_str(char *s, unsigned long bin, unsigned char n);
+
+#endif /* SI_UTILITIES_H_ */

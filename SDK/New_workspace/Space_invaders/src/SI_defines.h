@@ -9,6 +9,8 @@
 #define DEFINES_H_
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include "platform.h"
 #include "xintc.h"
 #include "xparameters.h"
@@ -26,7 +28,7 @@
 #define TEXT_MEM_OFF 0x1000000
 
 #define INVADER_INIT_ROW 1
-#define INIT_ROWS 3
+#define INIT_ROWS 2
 #define INIT_COLS 9
 #define INIT_NUM INIT_ROWS*INIT_COLS
 
@@ -45,9 +47,11 @@
 #define MIDDLE_JOY 27
 #define RIGHT_JOY 29
 
-#define INVADER_SPEED 50
+#define INVADER_SPEED 40
 #define SPACESHIP_SPEED 8
 #define PROJECTILE_SPEED 12
 #define SHOOT_SPEED 25
+
+#define INIT_LIVES 3
 
 #endif /* DEFINES_H_ */

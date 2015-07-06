@@ -46,31 +46,31 @@
 </editorArea>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="SI_logic.c" partName="SI_logic.c" path="C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/SDK/New_workspace/Space_invaders/src/SI_logic.c" title="SI_logic.c" tooltip="Space_invaders/src/SI_logic.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Space_invaders/src/SI_logic.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3550" selectionTopPixel="2160"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8526" selectionTopPixel="5098"/>
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="SI_main.c" partName="SI_main.c" path="C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/SDK/New_workspace/Space_invaders/src/SI_main.c" title="SI_main.c" tooltip="Space_invaders/src/SI_main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Space_invaders/src/SI_main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5036" selectionTopPixel="2788"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5066" selectionTopPixel="2670"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="SI_defines.h" partName="SI_defines.h" path="C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/SDK/New_workspace/Space_invaders/src/SI_defines.h" title="SI_defines.h" tooltip="Space_invaders/src/SI_defines.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Space_invaders/src/SI_defines.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="569" selectionTopPixel="15"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="903" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="SI_interrupt.c" partName="SI_interrupt.c" path="C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/SDK/New_workspace/Space_invaders/src/SI_interrupt.c" title="SI_interrupt.c" tooltip="Space_invaders/src/SI_interrupt.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Space_invaders/src/SI_interrupt.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="738" selectionTopPixel="240"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1041" selectionTopPixel="420"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="SI_globals.h" partName="SI_globals.h" path="C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/SDK/New_workspace/Space_invaders/src/SI_globals.h" title="SI_globals.h" tooltip="Space_invaders/src/SI_globals.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Space_invaders/src/SI_globals.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="250" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="418" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="SI_globals.c" partName="SI_globals.c" path="C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/SDK/New_workspace/Space_invaders/src/SI_globals.c" title="SI_globals.c" tooltip="Space_invaders/src/SI_globals.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Space_invaders/src/SI_globals.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="212" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="448" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="SI_logic.h" partName="SI_logic.h" path="C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/SDK/New_workspace/Space_invaders/src/SI_logic.h" title="SI_logic.h" tooltip="Space_invaders/src/SI_logic.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Space_invaders/src/SI_logic.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="354" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="70" selectionOffset="128" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -107,7 +107,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings (1 item)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="597"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -121,7 +121,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.cdt.ui.CPerspective">
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.eclipse.cdt.ui.CPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -279,27 +279,18 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.91780823" ratioLeft="804" ratioRight="72" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.91780823" ratioLeft="804" ratioRight="72" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.tm.terminal.view.TerminalView" label="Terminal 1"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -308,8 +299,7 @@
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.tcf.TraceView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -318,27 +308,21 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.58039814" ratioLeft="379" ratioRight="274" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="com.xilinx.sdk.targetmanager.ui.XmdConsoleView" label="XMD Console"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.debug.ui.SignalsView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.ModuleView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -352,161 +336,165 @@
 <workingSets/>
 <navigationHistory>
 <editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Space_invaders/src/SI_main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Space_invaders/src/SI_interrupt.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Space_invaders/src/SI_utilities.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Space_invaders/src/SI_utilities.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Space_invaders/src/SI_logic.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Space_invaders/src/SI_defines.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Space_invaders/src/SI_globals.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Space_invaders/src/SI_logic.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Space_invaders/src/SI_main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Space_invaders/src/SI_logic.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Space_invaders/src/SI_interrupt.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Space_invaders/src/SI_defines.h"/>
 </editors>
-<item historyLabel="SI_main.c" index="1">
-<position info="not_deleted" x="2067" y="0"/>
+<item historyLabel="SI_interrupt.c" index="1">
+<position info="not_deleted" x="382" y="0"/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="298" y="0"/>
+<item historyLabel="SI_logic.h" index="4">
+<position info="not_deleted" x="128" y="70"/>
 </item>
-<item historyLabel="SI_logic.h" index="2">
-<position info="not_deleted" x="202" y="31"/>
+<item historyLabel="SI_utilities.h" index="2">
+<position info="not_deleted" x="210" y="0"/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="298" y="0"/>
+<item historyLabel="SI_utilities.c" index="3">
+<position info="not_deleted" x="163" y="98"/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="789" y="0"/>
+<item historyLabel="SI_utilities.h" index="2">
+<position info="not_deleted" x="210" y="0"/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="295" y="0"/>
+<item historyLabel="SI_defines.h" index="5">
+<position info="not_deleted" x="903" y="0"/>
 </item>
-<item historyLabel="SI_logic.h" index="2">
-<position info="not_deleted" x="354" y="0"/>
+<item historyLabel="SI_utilities.c" index="3">
+<position info="not_deleted" x="163" y="98"/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="140" y="0"/>
+<item historyLabel="SI_interrupt.c" index="1">
+<position info="not_deleted" x="382" y="0"/>
 </item>
-<item historyLabel="SI_main.c" index="1">
-<position info="not_deleted" x="2067" y="0"/>
+<item historyLabel="SI_utilities.h" index="2">
+<position info="not_deleted" x="210" y="0"/>
 </item>
-<item historyLabel="SI_logic.h" index="2">
-<position info="not_deleted" x="354" y="0"/>
+<item historyLabel="SI_utilities.c" index="3">
+<position info="not_deleted" x="163" y="98"/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="140" y="0"/>
+<item historyLabel="SI_utilities.c" index="3">
+<position info="not_deleted" x="113" y="0"/>
 </item>
-<item historyLabel="SI_logic.h" index="2">
-<position info="not_deleted" x="354" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position info="not_deleted" x="4074" y="0"/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="140" y="0"/>
+<item historyLabel="SI_utilities.h" index="2">
+<position info="not_deleted" x="210" y="0"/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="167" y="0"/>
+<item historyLabel="SI_utilities.c" index="3">
+<position info="not_deleted" x="113" y="0"/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="181" y="0"/>
+<item historyLabel="SI_utilities.c" index="3">
+<position info="not_deleted" x="3154" y="0"/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="282" y="0"/>
+<item historyLabel="SI_utilities.c" index="3">
+<position info="not_deleted" x="3157" y="0"/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="711" y="0"/>
+<item historyLabel="SI_utilities.c" index="3">
+<position info="not_deleted" x="3163" y="0"/>
 </item>
-<item historyLabel="SI_main.c" index="1">
-<position info="not_deleted" x="2456" y="0"/>
+<item historyLabel="SI_utilities.c" index="3">
+<position info="not_deleted" x="3237" y="0"/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="711" y="0"/>
+<item historyLabel="SI_utilities.h" index="2">
+<position info="not_deleted" x="210" y="0"/>
 </item>
-<item historyLabel="SI_logic.h" index="2">
-<position info="not_deleted" x="354" y="0"/>
+<item historyLabel="SI_globals.c" index="6">
+<position info="not_deleted" x="420" y="0"/>
 </item>
-<item historyLabel="SI_interrupt.c" index="3">
-<position info="not_deleted" x="738" y="0"/>
+<item historyLabel="SI_utilities.h" index="2">
+<position info="not_deleted" x="210" y="0"/>
 </item>
-<item historyLabel="SI_main.c" index="1">
-<position info="not_deleted" x="5353" y="0"/>
+<item historyLabel="SI_globals.c" index="6">
+<position info="not_deleted" x="420" y="0"/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="711" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position info="not_deleted" x="4074" y="0"/>
 </item>
-<item historyLabel="SI_logic.h" index="2">
-<position info="not_deleted" x="354" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position info="not_deleted" x="1965" y="0"/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="711" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position info="not_deleted" x="3975" y="0"/>
 </item>
-<item historyLabel="SI_main.c" index="1">
-<position info="not_deleted" x="5353" y="0"/>
+<item historyLabel="SI_globals.c" index="6">
+<position info="not_deleted" x="448" y="0"/>
 </item>
-<item historyLabel="SI_main.c" index="1">
-<position info="not_deleted" x="4757" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position info="not_deleted" x="6075" y="0"/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="3331" y="85"/>
+<item historyLabel="SI_logic.c" index="7">
+<position info="not_deleted" x="8526" y="0"/>
 </item>
-<item historyLabel="SI_main.c" index="1">
-<position info="not_deleted" x="4757" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position info="not_deleted" x="6075" y="0"/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="3331" y="85"/>
+<item historyLabel="SI_logic.c" index="7">
+<position info="not_deleted" x="8526" y="0"/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="7486" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position info="not_deleted" x="6075" y="0"/>
 </item>
-<item historyLabel="SI_main.c" index="1">
-<position info="not_deleted" x="4757" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position/>
 </item>
-<item historyLabel="SI_defines.h" index="4">
-<position info="not_deleted" x="569" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position/>
 </item>
-<item historyLabel="SI_main.c" index="1">
-<position info="not_deleted" x="2746" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="7486" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="7479" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position/>
 </item>
-<item historyLabel="SI_main.c" index="1">
-<position info="not_deleted" x="4139" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="7479" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position/>
 </item>
-<item historyLabel="SI_main.c" index="1">
-<position info="not_deleted" x="2094" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position/>
 </item>
-<item historyLabel="SI_defines.h" index="4">
-<position info="not_deleted" x="569" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position info="not_deleted" x="6469" y="0"/>
 </item>
-<item historyLabel="SI_main.c" index="1">
-<position info="not_deleted" x="5036" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position/>
 </item>
-<item historyLabel="SI_defines.h" index="4">
-<position info="not_deleted" x="569" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position/>
 </item>
-<item historyLabel="SI_main.c" index="1">
-<position info="not_deleted" x="5036" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="3468" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position/>
 </item>
-<item historyLabel="SI_main.c" index="1">
-<position info="not_deleted" x="5119" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position info="not_deleted" x="6476" y="0"/>
 </item>
-<item historyLabel="SI_defines.h" index="4">
-<position info="not_deleted" x="569" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position/>
 </item>
-<item historyLabel="SI_logic.c" index="0">
-<position info="not_deleted" x="3550" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position/>
 </item>
-<item historyLabel="SI_main.c" index="1">
-<position info="not_deleted" x="5036" y="0"/>
+<item historyLabel="SI_main.c" index="0">
+<position info="not_deleted" x="8138" y="0"/>
 </item>
-<item historyLabel="SI_defines.h" index="4">
-<position info="not_deleted" x="569" y="0"/>
+<item historyLabel="SI_interrupt.c" index="1">
+<position info="not_deleted" x="382" y="0"/>
 </item>
-<item active="true" historyLabel="SI_main.c" index="1">
-<position info="not_deleted" x="5036" y="0"/>
+<item active="true" historyLabel="SI_main.c" index="8">
+<position info="not_deleted" x="8138" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -525,6 +513,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="SI_utilities.c" tooltip="Space_invaders/src/SI_utilities.c">
+<persistable path="/Space_invaders/src/SI_utilities.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="SI_utilities.h" tooltip="Space_invaders/src/SI_utilities.h">
+<persistable path="/Space_invaders/src/SI_utilities.h"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="SI_draw.h" tooltip="Space_invaders/src/SI_draw.h">
 <persistable path="/Space_invaders/src/SI_draw.h"/>
 </file>
@@ -563,12 +557,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="xbasic_types.h" tooltip="Space_invaders_bsp/microblaze_0/include/xbasic_types.h">
 <persistable path="/Space_invaders_bsp/microblaze_0/include/xbasic_types.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="xintc.c" tooltip="Space_invaders_bsp/microblaze_0/libsrc/intc_v2_06_a/src/xintc.c">
-<persistable path="/Space_invaders_bsp/microblaze_0/libsrc/intc_v2_06_a/src/xintc.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="xio.h" tooltip="Space_invaders_bsp/microblaze_0/include/xio.h">
-<persistable path="/Space_invaders_bsp/microblaze_0/include/xio.h"/>
 </file>
 </mruList>
 </workbench>

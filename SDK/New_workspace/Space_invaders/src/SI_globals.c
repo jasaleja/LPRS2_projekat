@@ -19,8 +19,12 @@ Xuint8	spaceship_speed = 0,
 		shoot_flag = 0,
 		invader_shoot_flag = 0,
 		counter = 0,
+		move_faster = 0,
+		level = 0,
+		print_level = 0,
 		invaders_num = INIT_NUM,
 		game_over = 0,
+		lives = INIT_LIVES,
 		seed = 0,
 		input = 0;
 

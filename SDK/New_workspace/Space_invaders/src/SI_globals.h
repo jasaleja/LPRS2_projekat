@@ -21,8 +21,12 @@ extern  Xuint8	spaceship_speed,
 		projectil_flag,
 		shoot_flag,
 		invader_shoot_flag,
+		move_faster,
+		level,
+		print_level,
 		counter,
 		game_over,
+		lives,
 		seed,
 		input;
 

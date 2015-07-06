@@ -14,13 +14,14 @@ void vga_interrupt_handler(void *BaseAddress)
 	input = VGA_PERIPH_MEM_mReadMemory(XPAR_MY_PERIPHERAL_0_BASEADDR);
 
 	/* spaceship and projectiles signals */
-	if(spaceship_speed == SPACESHIP_SPEED)
+	if(spaceship_speed == (SPACESHIP_SPEED))
 	{
 		spaceship_flag = 1;
 		spaceship_speed = 0;
 	}
 	else
 		spaceship_speed++;
+
 
 	if(projectil_speed == PROJECTILE_SPEED)
 	{
@@ -32,9 +33,9 @@ void vga_interrupt_handler(void *BaseAddress)
 	/*************************************/
 
 	/* signals for movement of rows of invaders */
-	for(i = INIT_ROWS - 1; i >= 0; i--)
+	for(i = INIT_ROWS - 1 + level - 1; i >= 0; i--)
 	{
-		if(invader_speed == INVADER_SPEED*(INIT_ROWS-i))
+		if(invader_speed == (INVADER_SPEED*(INIT_ROWS + level - 1 - i)) - (level-1)*2)
 		{
 			flag_row[i] = 1;
 			if(i == 0)
@@ -50,7 +51,7 @@ void vga_interrupt_handler(void *BaseAddress)
 		shoot_flag--;
 	}
 
-	if(counter == 10)
+	if(counter == (30 - (level+6)*2))
 	{
 		counter = 0;
 		invader_shoot_flag = 1;
