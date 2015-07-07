@@ -191,10 +191,10 @@ int main()
 		/* Menu */
 		VGA_PERIPH_MEM_mWriteMemory(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR + 0x04, 0b01);    //text mode
 
-		set_cursor(8125);
-		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "PRESS KEY LEFT TO START", strlen("PRESS KEY LEFT TO START"));
+		set_cursor(8115);
+		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "PRESS KEY DOWN TO START", strlen("PRESS KEY DOWN TO START"));
 
-		while(input != RIGHT_JOY)	//wait for input from user
+		while(input != 30)	//wait for input from user
 		{
 			input = VGA_PERIPH_MEM_mReadMemory(XPAR_MY_PERIPHERAL_0_BASEADDR);
 			seed++;
@@ -218,12 +218,13 @@ int main()
 		num_to_str(str, lives, num_len(lives));
 		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, str, strlen(str));
 
-		set_cursor(800);
+		set_cursor(751);
 		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "LEVEL", strlen("LEVEL"));
 
 		game_over = 0;
 		level = 0;
 		print_level = 0;
+		old_level = -1;
 		score = 0;
 		old_score = 0;
 		j = 1;
@@ -339,7 +340,7 @@ int main()
 
 				if(old_level != print_level)
 				{
-					set_cursor(800 + 24);
+					set_cursor(751 + 24);
 					num_to_str(str, print_level, num_len(print_level));
 					print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, str, strlen(str));
 					old_level = print_level;
@@ -357,10 +358,10 @@ int main()
 		set_cursor(3660);
 		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "GAME OVER", 9);
 
-		set_cursor(6530);
+		set_cursor(6543);
 		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "SCORE", 5);
 
-		set_cursor(6530 + 22);
+		set_cursor(6543 + 24);
 		num_to_str(str, score + old_score, num_len(score + old_score));
 		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, str, num_len(score + old_score));
 

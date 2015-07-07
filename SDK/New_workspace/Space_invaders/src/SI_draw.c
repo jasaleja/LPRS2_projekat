@@ -177,7 +177,7 @@ void draw_ship(Xuint32 BaseAddress, Xuint8 x_crdnt, Xuint8 y_crdnt)
 	int i, j, k;
 	k = x_crdnt;
 
-	if(lives >= INIT_LIVES-1)
+	if(lives > INIT_LIVES-1)
 	{
 		for (j = 2 + 32*y_crdnt; j < 28 + 32*y_crdnt; j++)
 		{
@@ -204,6 +204,38 @@ void draw_ship(Xuint32 BaseAddress, Xuint8 x_crdnt, Xuint8 y_crdnt)
 			}
 		}
 	}
+	else if(lives == INIT_LIVES-1)
+	{
+		for (j = 2 + 32*y_crdnt; j < 28 + 32*y_crdnt; j++)
+		{
+			i = j*(640/8) + k;
+			if (j >= (2 + 32*y_crdnt) && j < (6 + 32*y_crdnt)) {
+				//VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i-1)*4, 0x00000000);
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+0)*4, 0x00033000);
+				//VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+1)*4, 0x00000000);
+			}
+			else if (j >= (6 + 32*y_crdnt) && j < (12 + 32*y_crdnt)) {
+				//VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i-1)*4, 0x00000000);
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+0)*4, 0x00333300);
+				//VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+1)*4, 0x00000000);
+			}
+			else if (j >= (12 + 32*y_crdnt) && j < (16 + 32*y_crdnt)) {
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i-1)*4, 0x0003333);
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+0)*4, 0x33333300);
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+1)*4, 0x0333300);
+			}
+			else if (j >= (16 + 32*y_crdnt) && j < (22 + 32*y_crdnt)){
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i-1)*4, 0x00033333);
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+0)*4, 0x33333333);
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+1)*4, 0x33330000);
+			}
+			else {
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i-1)*4, 0x33333333);
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+0)*4, 0x33333333);
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+1)*4, 0x33333333);
+			}
+		}
+	}
 	else
 	{
 		for (j = 2 + 32*y_crdnt; j < 28 + 32*y_crdnt; j++)
@@ -211,23 +243,28 @@ void draw_ship(Xuint32 BaseAddress, Xuint8 x_crdnt, Xuint8 y_crdnt)
 			i = j*(640/8) + k;
 			if (j >= (2 + 32*y_crdnt) && j < (6 + 32*y_crdnt)) {
 				//VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i-1)*4, 0x00000000);
-				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+0)*4, 0x00030000);
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+0)*4, 0x00033000);
 				//VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+1)*4, 0x00000000);
 			}
 			else if (j >= (6 + 32*y_crdnt) && j < (12 + 32*y_crdnt)) {
 				//VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i-1)*4, 0x00000000);
-				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+0)*4, 0x00330000);
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+0)*4, 0x00333000);
 				//VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+1)*4, 0x00000000);
 			}
 			else if (j >= (12 + 32*y_crdnt) && j < (16 + 32*y_crdnt)) {
-				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i-1)*4, 0x00033333);
-				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+0)*4, 0x33333300);
-				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+1)*4, 0x3333000);
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i-1)*4, 0x00033300);
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+0)*4, 0x03333300);
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+1)*4, 0x33333000);
+			}
+			else if (j >= (16 + 32*y_crdnt) && j < (22 + 32*y_crdnt)){
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i-1)*4, 0x00333333);
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+0)*4, 0x33333333);
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+1)*4, 0x33330000);
 			}
 			else {
-				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i-1)*4, 0x33333333);
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i-1)*4, 0x00033333);
 				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+0)*4, 0x33333333);
-				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+1)*4, 0x33333300);
+				VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + (i+1)*4, 0x33333333);
 			}
 		}
 	}

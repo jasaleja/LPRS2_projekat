@@ -172,7 +172,6 @@ int main()
 	/* temp variables */
 	int old_lives = 0, old_invaders_num = 0, old_level = 0;
 	int score = 0, old_score = 0;
-	int sum = 0;
 	char* str = NULL;
 
     /************************/
@@ -192,10 +191,10 @@ int main()
 		/* Menu */
 		VGA_PERIPH_MEM_mWriteMemory(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR + 0x04, 0b01);    //text mode
 
-		set_cursor(8125);
-		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "PRESS KEY LEFT TO START", strlen("PRESS KEY LEFT TO START"));
+		set_cursor(8530);
+		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "PRESS KEY DOWN TO START", strlen("PRESS KEY DOWN TO START"));
 
-		while(input != RIGHT_JOY)	//wait for input from user
+		while(input != LEFT_JOY)	//wait for input from user
 		{
 			seed++;
 		}
@@ -209,29 +208,25 @@ int main()
 
 		set_cursor(688);
 		num_to_str(str, 0, num_len(0));
-		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, str, strlen(str));
+		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, str, num_len(0));
 
 		set_cursor(710);
-		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "LIVES", strlen("LIVES"));
+		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "LIVES", 5);
 
 		set_cursor(732);
 		num_to_str(str, lives, num_len(lives));
-		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, str, strlen(str));
+		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, str, num_len(lives));
 
 		set_cursor(800);
 		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "LEVEL", strlen("LEVEL"));
 
 		game_over = 0;
 		level = 0;
-		print_level = 0;
 		score = 0;
 		old_score = 0;
-		j = 1;
 
 		while(!game_over)
 		{
-			print_level++;
-
 			if(level < 4)
 			{
 				level++;
@@ -245,7 +240,6 @@ int main()
 
 			init_variables(&spaceship_dir, invader_dir, invader_dir_chng, row);
 			generate_init_invaders_positions();
-
 			init_draw(row);
 
 			while((invaders_num > 0) && (game_over == 0))
@@ -312,12 +306,6 @@ int main()
 					num_to_str(str, score + old_score, num_len(score + old_score));
 					print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, str, strlen(str));
 					old_invaders_num = invaders_num;
-
-					if(score + old_score > 500*j)
-					{
-						j++;
-						lives++;
-					}
 				}
 
 				if(old_lives != lives)

@@ -46,6 +46,7 @@
 #define LEFT_JOY 23
 #define MIDDLE_JOY 27
 #define RIGHT_JOY 29
+#define DOWN_JOY 30
 
 #define INVADER_SPEED 40
 #define PROJECTILE_SPEED 12

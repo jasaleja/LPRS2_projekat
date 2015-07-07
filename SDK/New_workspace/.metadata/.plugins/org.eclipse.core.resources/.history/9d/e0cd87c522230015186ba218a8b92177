@@ -172,7 +172,6 @@ int main()
 	/* temp variables */
 	int old_lives = 0, old_invaders_num = 0, old_level = 0;
 	int score = 0, old_score = 0;
-	int sum = 0;
 	char* str = NULL;
 
     /************************/
@@ -192,12 +191,11 @@ int main()
 		/* Menu */
 		VGA_PERIPH_MEM_mWriteMemory(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR + 0x04, 0b01);    //text mode
 
-		set_cursor(8125);
-		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "PRESS KEY LEFT TO START", strlen("PRESS KEY LEFT TO START"));
+		set_cursor(8530);
+		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "PRESS KEY DOWN TO START", strlen("PRESS KEY DOWN TO START"));
 
-		while(input != RIGHT_JOY)	//wait for input from user
+		while(input != LEFT_JOY)	//wait for input from user
 		{
-			//input = VGA_PERIPH_MEM_mReadMemory(XPAR_MY_PERIPHERAL_0_BASEADDR);
 			seed++;
 		}
 		srand(seed);
@@ -213,7 +211,7 @@ int main()
 		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, str, strlen(str));
 
 		set_cursor(710);
-		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "LIVES", strlen("LIVES"));
+		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "LIVES", 5);
 
 		set_cursor(732);
 		num_to_str(str, lives, num_len(lives));
@@ -223,19 +221,18 @@ int main()
 		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "LEVEL", strlen("LEVEL"));
 
 		game_over = 0;
-		level = 0;
+		level = 1;
 		print_level = 0;
 		score = 0;
 		old_score = 0;
-		j = 1;
 
 		while(!game_over)
 		{
-			print_level++;
+			//print_level++;
 
 			if(level < 4)
 			{
-				level++;
+				//level++;
 			}
 
 			old_score += score;
@@ -246,7 +243,6 @@ int main()
 
 			init_variables(&spaceship_dir, invader_dir, invader_dir_chng, row);
 			generate_init_invaders_positions();
-
 			init_draw(row);
 
 			while((invaders_num > 0) && (game_over == 0))
@@ -254,11 +250,17 @@ int main()
 				switch(input)
 				{
 					case LEFT_JOY:
-							spaceship_dir = LEFT;
+							if(spaceship_dir == LEFT)
+								move_faster = 1;
+							else
+								spaceship_dir = LEFT;
 							break;
 
 					case RIGHT_JOY:
-							spaceship_dir = RIGHT;
+							if(spaceship_dir == RIGHT)
+								move_faster = 1;
+							else
+								spaceship_dir = RIGHT;
 							break;
 
 					case MIDDLE_JOY:
@@ -267,6 +269,9 @@ int main()
 								shoot_projectile_from_ship(spaceship_x);
 								shoot_flag = SHOOT_SPEED;
 							}
+							break;
+					default:
+							move_faster = 0;
 							break;
 				}
 
@@ -313,12 +318,6 @@ int main()
 					num_to_str(str, score + old_score, num_len(score + old_score));
 					print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, str, strlen(str));
 					old_invaders_num = invaders_num;
-
-					if(score + old_score > 500*j)
-					{
-						j++;
-						lives++;
-					}
 				}
 
 				if(old_lives != lives)

@@ -17859,3 +17859,21 @@ Done writing filter settings to:
 	C:\Users\student\ra772012\lprs2\Stari\LPRS2_projekat\etc\system.filters
 Done writing Tab View settings to:
 	C:\Users\student\ra772012\lprs2\Stari\LPRS2_projekat\etc\system.gui
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.6 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+
+********************************************************************************
+At Local date and time: Tue Jul 07 15:07:39 2015
+ make -f system.make exporttosdk started...
+make: Ništa za napraviti za `exporttosdk'.
+Done!
+
+********************************************************************************
+At Local date and time: Tue Jul 07 15:07:40 2015
+ xsdk.exe -hwspec C:\Users\student\ra772012\lprs2\Stari\LPRS2_projekat\SDK\SDK_Export\hw\system.xml started...
+Xilinx Software Development Kit
+Xilinx EDK 14.6 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Done!

@@ -1399,3 +1399,175 @@ Failed to Scan JTAG Chain
 	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
 
 19:19:49.033 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:07:52.272 INFO  - Processing command line option -hwspec C:\Users\student\ra772012\lprs2\Stari\LPRS2_projekat\SDK\SDK_Export\hw\system.xml. 
+15:08:21.592 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/SDK/New_workspace/Projekat_hw_platform/download.bit" 
+15:12:03.854 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:12:04.858 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Debug Operation Not Supported on the Target
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+15:21:58.086 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:22:03.460 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+15:22:03.747 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Invalid Target ID
+    Target '0' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setResetOnRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+15:22:46.240 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:23:03.848 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+15:23:03.848 ERROR - Timeout occured while waiting to get reply for command "targets 0" 
+15:25:10.891 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:26:05.863 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:26:51.530 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:27:39.289 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:29:35.050 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:30:06.372 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:30:07.288 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Debug Operation Not Supported on the Target
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+15:31:02.026 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:31:06.047 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Cannot perform the Debug Command
+
+    Failed to lock the JTAG cable for exclusive access
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+15:31:06.047 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+15:31:15.686 ERROR - Checking FPGA configuration failed..Lost communication with jtag cable. Run "xdisconnect -cable"
+    and start over again
+
+ 
+15:31:17.743 ERROR - Checking FPGA configuration failed..Lost communication with jtag cable. Run "xdisconnect -cable"
+    and start over again
+
+ 
+15:31:21.640 ERROR - Checking FPGA configuration failed..Lost communication with jtag cable. Run "xdisconnect -cable"
+    and start over again
+
+ 
+15:31:37.573 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/SDK/New_workspace/Projekat_hw_platform/download.bit" 
+15:32:27.934 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:33:05.413 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:34:14.678 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:34:26.278 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:36:12.374 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:37:19.269 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:37:41.765 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:39:11.418 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:39:12.228 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Cannot perform the Debug Command, Current Processor State is "Running"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+15:39:49.805 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:40:21.583 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:41:03.263 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:42:58.755 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:43:22.236 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:43:47.106 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:44:03.688 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:44:46.870 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:45:21.977 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:46:26.780 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:07:11.594 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:07:12.494 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Cannot perform the Debug Command, Current Processor State is "Running"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+16:09:56.150 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:10:06.413 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Cannot perform the Debug Command
+
+    Failed to lock the JTAG cable for exclusive access
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+16:10:06.414 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+16:10:13.149 ERROR - Checking FPGA configuration failed..Lost communication with jtag cable. Run "xdisconnect -cable"
+    and start over again
+
+ 
+16:11:22.064 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+16:11:22.064 ERROR - Timeout occured while waiting to get reply for command "xdisconnect -cable" 
+16:11:33.789 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/SDK/New_workspace/Projekat_hw_platform/download.bit" 
+16:13:10.912 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:14:06.325 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:14:52.738 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+16:14:52.743 WARN  - Terminating existing sessions on processor microblaze_0 
+16:14:53.325 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Cannot perform the Debug Command
+MicroBlaze is not being clocked. Check if the Clock input to MicroBlaze and its Bus Interfaces are connected properly
+    Invalid device index.
+
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+16:14:53.325 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Cannot perform the Debug Command
+MicroBlaze is not being clocked. Check if the Clock input to MicroBlaze and its Bus Interfaces are connected properly
+    Invalid device index.
+
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+16:17:15.846 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/SDK/New_workspace/Projekat_hw_platform/download.bit" 
+16:19:19.009 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+16:19:22.954 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+16:19:35.199 INFO  - FPGA configured successfully with bitstream "C:/Users/student/ra772012/lprs2/Stari/LPRS2_projekat/SDK/New_workspace/Projekat_hw_platform/download.bit" 
+16:23:28.786 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:24:24.168 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:25:00.258 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:25:42.641 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:26:13.015 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:26:34.394 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:27:00.478 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:27:19.345 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:27:55.528 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:28:26.107 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:29:12.519 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:29:36.796 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:30:03.471 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:30:29.247 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:31:04.850 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:31:27.729 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:32:00.218 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:42:51.743 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:43:11.475 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:44:29.060 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:44:56.869 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:46:56.677 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:53:15.261 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:57:22.654 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:01:18.276 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:27:27.951 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

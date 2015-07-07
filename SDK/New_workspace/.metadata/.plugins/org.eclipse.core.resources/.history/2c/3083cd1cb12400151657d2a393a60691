@@ -44,7 +44,7 @@ void init_variables(Xuint8* spaceship_dir, Xuint8* invader_dir, Xuint8* invader_
 		flag_row[i] = 0;
 	}
 
-	spaceship_speed = 0;
+	spaceship_speed_cnt = 0;
 	projectil_speed = 0;
 	spaceship_flag = 0;
 	projectil_flag = 0;
@@ -63,17 +63,17 @@ void init_variables(Xuint8* spaceship_dir, Xuint8* invader_dir, Xuint8* invader_
 		*spaceship_dir = 0;
 		spaceship_x = 7;
 		lives = INIT_LIVES;
+	}
 
-		for(i = 0; i < MAX_PROJECTILES_X; i++)
+	for(i = 0; i < MAX_PROJECTILES_X; i++)
+	{
+		projectiles_of_ship_num[i] = 0;
+		projectiles_of_invaders_num[i] = 0;
+
+		for(j = 0; j < MAX_PROJECTILES_Y; j++)
 		{
-			projectiles_of_ship_num[i] = 0;
-			projectiles_of_invaders_num[i] = 0;
-
-			for(j = 0; j < MAX_PROJECTILES_Y; j++)
-			{
-				projectiles_map[i][j] = 0;
-				invaders_map[i][j] = 0;
-			}
+			projectiles_map[i][j] = 0;
+			invaders_map[i][j] = 0;
 		}
 	}
 }
@@ -82,7 +82,7 @@ void init_draw(Xuint8* row)
 {
 	int i, j;
 
-	if(level - 1 == 0)
+	//if(level - 1 == 0)
 		draw_ship(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, spaceship_x, SHIP_Y);
 
 	for(i = 0; i < INIT_ROWS + level - 1; i++)
@@ -169,10 +169,9 @@ int main()
 	Xuint8* invader_dir;
 	Xuint8* invader_dir_chng;
 
-	/* temp variables */
-	int old_lives = 0, old_invaders_num = 0, old_level = 0;
+	/* Temp variables */
+	int old_lives = 0, old_invaders_num = 0, old_level = -1;
 	int score = 0, old_score = 0;
-	int sum = 0;
 	char* str = NULL;
 
     /************************/
@@ -189,11 +188,16 @@ int main()
 	{
 		clear_graphics_screen(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
 
+
+		set_cursor(8125);
+		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "PRESS KEY LEFT TO RETURN TO MENU", strlen("PRESS KEY LEFT TO RETURN TO MENU"));
+		clear_text_screen(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
+
 		/* Menu */
 		VGA_PERIPH_MEM_mWriteMemory(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR + 0x04, 0b01);    //text mode
 
 		set_cursor(8125);
-		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "PRESS KEY LEFT TO START", strlen("PRESS KEY LEFT TO START"));
+		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "SPACE INVADERS", strlen("SPACE INVADERS"));
 
 		while(input != RIGHT_JOY)	//wait for input from user
 		{
@@ -225,6 +229,7 @@ int main()
 		game_over = 0;
 		level = 0;
 		print_level = 0;
+		old_level = -1;
 		score = 0;
 		old_score = 0;
 		j = 1;
@@ -247,18 +252,21 @@ int main()
 			init_variables(&spaceship_dir, invader_dir, invader_dir_chng, row);
 			generate_init_invaders_positions();
 
+			clear_graphics_screen(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
 			init_draw(row);
 
-			while((invaders_num > 0) && (game_over == 0))
+			while(!((invaders_num == 0) || (game_over == 1)))
 			{
 				switch(input)
 				{
 					case LEFT_JOY:
 							spaceship_dir = LEFT;
+							spaceship_speed = 4;
 							break;
 
 					case RIGHT_JOY:
 							spaceship_dir = RIGHT;
+							spaceship_speed = 4;
 							break;
 
 					case MIDDLE_JOY:
@@ -269,6 +277,12 @@ int main()
 							}
 							break;
 				}
+
+				if(input != LEFT_JOY && input != RIGHT_JOY) //STISNUT NEKI JOY
+				{
+					spaceship_speed = 8;
+				}
+
 
 				if(spaceship_flag)	//time to move spaceship
 				{
@@ -331,7 +345,7 @@ int main()
 
 				if(old_level != print_level)
 				{
-					set_cursor(800 + 22);
+					set_cursor(800 + 24);
 					num_to_str(str, print_level, num_len(print_level));
 					print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, str, strlen(str));
 					old_level = print_level;
@@ -346,18 +360,16 @@ int main()
 		VGA_PERIPH_MEM_mWriteMemory(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR + 0x04, 0b01);    //text mode
 		clear_text_screen(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
 
-		if(game_over)
-		{
-			set_cursor(3660);
-			print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "GAME OVER", 9);
+		set_cursor(3660);
+		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "GAME OVER", 9);
 
-			set_cursor(6530);
-			print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "SCORE", 5);
+		set_cursor(6530);
+		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, "SCORE", 5);
 
-			set_cursor(6530 + 22);
-			num_to_str(str, score + old_score, num_len(score + old_score));
-			print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, str, num_len(score + old_score));
-		}
+		set_cursor(6530 + 22);
+		num_to_str(str, score + old_score, num_len(score + old_score));
+		print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, str, num_len(score + old_score));
+
 	}
 
     return 0;

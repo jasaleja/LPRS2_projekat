@@ -35,7 +35,7 @@ void vga_interrupt_handler(void *BaseAddress)
 	/* signals for movement of rows of invaders */
 	for(i = INIT_ROWS - 1 + level - 1; i >= 0; i--)
 	{
-		if(invader_speed == (INVADER_SPEED*(INIT_ROWS + level - 1 - i)) - (level-1)*2)
+		if(invader_speed == (INVADER_SPEED*(INIT_ROWS + level - 1 - i)) - (print_level-1)*3)
 		{
 			flag_row[i] = 1;
 			if(i == 0)
@@ -51,7 +51,7 @@ void vga_interrupt_handler(void *BaseAddress)
 		shoot_flag--;
 	}
 
-	if(counter == (30 - (level+6)*2))
+	if(counter == (30 - (level+8)*2))
 	{
 		counter = 0;
 		invader_shoot_flag = 1;
